@@ -10,4 +10,7 @@ As of July 23, 2025, Arachnid supports:
 - **Configuration**: `config.yaml` and `default_config.yaml` for output directories, timeouts, wordlists, and WAF-aware rate limits.
 - **Execution Order**: `subfinder` → `httpx` → `dirbuster`, with placeholders for `paramspider`, `linkfinder`, `wafw00f`, `nuclei`, `dalfox`, `ssrfmap`, `lfimap`.
 - **Data Flow**: Structured JSON outputs for AI analysis, text files for tool chaining.
-- **File Tree**:
+
+The current scan all order includes subfinder, httpx, and dirbuster, with placeholders for future tools (paramspider, linkfinder, wafw00f, nuclei, dalfox, ssrfmap, lfimap). AI insights are planned via ai_analyzer.analyzer.analyze_results, leveraging JSON outputs.
+
+The ai_analyzer/analyzer.py module, expected to be completed within 2-3 months (by October 2025), will leverage a large language model (LLM), such as a LLaMA or an API-based solution (e.g., xAI’s Grok), to analyze JSON outputs from these tools. This AI will identify patterns, prioritize vulnerabilities (e.g., exposed directories, misconfigured subdomains), and generate human-readable reports via reports/templates/report_template.md. The AI-driven ai insights command will enhance Arachnid’s utility by providing actionable recommendations, making it a powerful tool for ethical hackers
