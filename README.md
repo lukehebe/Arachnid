@@ -1,4 +1,4 @@
-Arachnid is an open-source, modular web scanning and penetration testing assistant designed to automate reconnaissance and vulnerability discovery for security researchers and ethical hackers. Inspired by the stealth and precision of a spider, Arachnid orchestrates a suite of powerful open-source tools to perform subdomain enumeration, HTTP probing, directory brute-forcing, and more, with AI-driven insights to prioritize vulnerabilities. Built in Python, it offers a command-line interface (CLI) for ease of use, session persistence for resuming scans, and customizable configurations for flexibility.
+Arachnid is an open-source,  web scanning and penetration testing assistant designed to automate reconnaissance and vulnerability discovery for security researchers and ethical hackers. Arachnid orchestrates a suite of powerful open-source tools to perform subdomain enumeration, HTTP probing, directory brute-forcing, and more, with AI-driven insights to prioritize vulnerabilities. Built in Python, it offers a command-line interface for ease of use, session persistence for resuming scans, and customizable configurations for flexibility.
 
 
 
