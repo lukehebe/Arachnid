@@ -1,0 +1,39 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.egg
+
+# Environment and dependency files
+venv/
+.env
+*.env
+Pipfile.lock
+
+# Output directories
+sessions/
+output/
+*.log
+
+# Sensitive files
+*.key
+*.pem
+*.secret
+*.token
+*.password
+
+# Editor and OS-specific files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Testing and coverage
+coverage/
+.coverage
+*.cover
